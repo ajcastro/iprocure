@@ -25,7 +25,7 @@ class EloquentBuilder extends \Illuminate\Database\Eloquent\Builder
     protected function getPivotRelations()
     {
         $relations = array_filter(array_keys($this->eagerLoad), function ($relation) {
-            return $relation != 'pivot';
+            return $relation != 'pivot' && str_contains($relation, 'pivot');
         });
 
         return array_map(function ($relation) {
