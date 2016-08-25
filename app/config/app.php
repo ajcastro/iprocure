@@ -124,7 +124,8 @@ return array(
 		// -------------------- //
 		// Add providers below  //
 		// -------------------- //
-		'Way\Generators\GeneratorsServiceProvider'
+		'Way\Generators\GeneratorsServiceProvider',
+		'SedpMis\DbCommands\DbCommandsProvider',
 	),
 
 	/*

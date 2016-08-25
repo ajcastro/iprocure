@@ -21,7 +21,8 @@
         "sedp-mis/base-repository": "dev-master",
         "sedp-mis/base-api": "dev-master",
         "sedp-mis/lib": "dev-master",
-        "sedp-mis/base-grid-query": "dev-master"
+        "sedp-mis/base-grid-query": "dev-master",
+		"sedp-mis/laravel-db-commands": "dev-master"
 	},
 	"require-dev": {
         "phpunit/phpunit": "~4.0",
