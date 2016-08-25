@@ -1,7 +1,5 @@
 <?php
 
-use Illuminate\Database\Eloquent\Relations\Relation;
-
 class EloquentBuilder extends \Illuminate\Database\Eloquent\Builder
 {
     /**
