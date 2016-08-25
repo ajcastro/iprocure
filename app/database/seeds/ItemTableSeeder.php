@@ -11,10 +11,10 @@ class ItemTableSeeder extends Seeder {
 
 		foreach(range(1, 10) as $index) {
 			Item::create([
-                'name' => $fake->word,
-                'description' => $fake->text,
+				'unit_id'     => 1,
+				'name'        => $fake->word,
+				'description' => $fake->text,
 			]);
 		}
 	}
-
 }

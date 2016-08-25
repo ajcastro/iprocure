@@ -15,6 +15,7 @@ class CreateItemsTable extends Migration {
 		Schema::create('items', function(Blueprint $table)
 		{
 			$table->increments('id');
+			Fk::make($table)->add('unit_id');
 			$table->string('name');
 			$table->string('description');
 			$table->timestamps();
