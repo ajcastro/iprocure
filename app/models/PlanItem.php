@@ -1,7 +1,5 @@
 <?php
 
-use Illuminate\Database\Eloquent\Relations\Pivot;
-
 class PlanItem extends Pivot
 {
     protected $table = 'plan_item';
