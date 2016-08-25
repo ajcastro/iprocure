@@ -7,4 +7,5 @@ return [
     'purchase_id'  => 'unsignedInteger',
     'quotation_id' => 'unsignedInteger',
     'supplier_id'  => 'unsignedInteger',
+    'style_id'     => 'unsignedInteger',
 ];
