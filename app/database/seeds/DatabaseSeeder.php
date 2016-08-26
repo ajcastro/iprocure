@@ -17,7 +17,6 @@ class DatabaseSeeder extends Seeder {
 		$this->call('UnitTableSeeder');
 		$this->call('ItemTableSeeder');
 		$this->call('PlanTableSeeder');
-		$this->call('StyleTableSeeder');
 		$this->call('PlanItemTableSeeder');
 
         DB::statement('SET FOREIGN_KEY_CHECKS = 1');

@@ -18,7 +18,6 @@ class CreatePlanItemTable extends Migration {
 			Fk::make($table)->add('plan_id');
 			Fk::make($table)->add('item_id');
 			Fk::make($table)->add('unit_id');
-			Fk::make($table)->add('style_id');
 			$table->decimal('qty', 15, 3);
 			$table->decimal('price', 15, 3);
 			$table->timestamps();

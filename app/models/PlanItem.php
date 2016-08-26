@@ -10,9 +10,4 @@ class PlanItem extends Pivot
     {
         return $this->belongsTo('Unit');
     }
-
-    public function style()
-    {
-        return $this->belongsTo('Style');
-    }
 }

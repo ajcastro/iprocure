@@ -20,7 +20,3 @@ Route::get('/', function()
 Route::get('plans', function () {
     return Plan::with(['items.pivot.unit'])->get();
 });
-
-Route::get('test', function () {
-   return Item::with(['plans.items', 'plans.pivot.unit', 'plans.pivot.style'])->get();
-});

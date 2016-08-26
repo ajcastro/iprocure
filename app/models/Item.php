@@ -6,7 +6,7 @@ class Item extends \Eloquent
 
     public function plans()
     {
-        return $this->belongsToMany('Plan', 'plan_item')->withPivot('unit_id', 'style_id', 'qty', 'price');
+        return $this->belongsToMany('Plan', 'plan_item')->withPivot('unit_id', 'qty', 'price');
     }
 
     public function unit()
