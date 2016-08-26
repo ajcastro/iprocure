@@ -1,6 +1,6 @@
 <?php
 
-class BaseModel extends \Illuminate\Database\Eloquent\Model
+class BaseModel extends \SedpMis\Lib\Models\BaseModel
 {
     /**
      * Override. Create a new Eloquent query builder for the model.

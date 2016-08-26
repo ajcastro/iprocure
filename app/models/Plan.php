@@ -2,6 +2,9 @@
 
 class Plan extends \Eloquent
 {
+    protected $typecasts = [
+    ];
+
 	protected $fillable = [];
 
     public function items()
