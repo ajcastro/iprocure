@@ -16,7 +16,4 @@ Route::get('/', function()
 	return View::make('hello');
 });
 
-
-Route::get('plans', function () {
-    return Plan::with(['items.pivot.unit'])->get();
-});
+require_once base_path('src/routes.php');

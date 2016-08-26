@@ -126,6 +126,7 @@ return array(
 		// -------------------- //
 		'Way\Generators\GeneratorsServiceProvider',
 		'SedpMis\DbCommands\DbCommandsProvider',
+		'Iprocure\Providers\RepositoryServiceProvider',
 	),
 
 	/*
